@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>우리 동네 맛집 소개</title>
+
+    <!-- Google Fonts Jua 글꼴 -->
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #fff7e6;          /* 배경색 설정 */
+            font-family: 'Jua', sans-serif;     /* Jua 글꼴 사용 */
+            text-align: center;                 /* 가운데 정렬 */
+            padding: 40px;                      /* 안쪽 여백 */
+        }
+
+        h1 {
+            color: #ff7043;                     /* 제목 색상 */
+            font-size: 45px;                    /* 제목 크기 */
+        }
+
+        .container {
+            display: flex;                      /* 카드를 가로로 배치 */
+            justify-content: center;            /* 가운데 정렬 */
+            gap: 25px;                          /* 카드 사이 간격 */
+            flex-wrap: wrap;                    /* 화면이 작으면 줄바꿈 */
+        }
+
+        .card {
+            background-color: white;            /* 카드 배경색 */
+            width: 250px;                       /* 카드 너비 */
+            padding: 25px;                      /* 카드 안쪽 여백 */
+            border-radius: 20px;                /* 둥근 모서리 */
+            box-shadow: 0 5px 15px #cccccc;    /* 그림자 효과 */
+        }
+
+        .food {
+            font-size: 60px;                    /* 음식 이모지 크기 */
+        }
+
+        .menu {
+            color: #ff7043;                     /* 추천 메뉴 색상 */
+            font-size: 18px;                    /* 추천 메뉴 글자 크기 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🍴 우리 동네 맛집 BEST 3</h1>
+    <p>제가 직접 골라본 우리 동네 맛집을 소개합니다!</p>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="food">🌶️</div>
+            <h2>행복 분식</h2>
+            <p>매콤달콤한 떡볶이가 맛있는 우리 동네 분식집입니다.</p>
+            <p class="menu">⭐ 추천 메뉴 : 떡볶이</p>
+        </div>
+
+        <div class="card">
+            <div class="food">🍕</div>
+            <h2>우리 피자</h2>
+            <p>바삭한 도우와 풍부한 치즈가 정말 맛있습니다.</p>
+            <p class="menu">⭐ 추천 메뉴 : 치즈 피자</p>
+        </div>
+
+        <div class="card">
+            <div class="food">🍰</div>
+            <h2>달콤 카페</h2>
+            <p>친구들과 디저트를 먹으며 이야기하기 좋은 곳입니다.</p>
+            <p class="menu">⭐ 추천 메뉴 : 딸기 케이크</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
